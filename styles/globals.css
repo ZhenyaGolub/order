@@ -1,9 +1,38 @@
+@font-face {
+  font-family: 'Calibri';
+  src: url('../public/fonts/calibri.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('../public/fonts/calibri_bold.woff2') format('woff2');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('../public/fonts/helvetica_regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'CirceRounded';
+  src: url('../public/fonts/CirceRounded_Regular.woff2') format('woff2');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'CirceRoundedAlt';
+  src: url('../public/fonts/CirceRoundedAlt_Regular2.woff2') format('woff2');
+  font-weight: 400;
+}
+
 html,
 body {
+  font-family: 'Calibri';
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
