@@ -1,6 +1,10 @@
-import Head from 'next/head';
-import Image from 'next/image';
+import { Form } from '../components/form/form';
+import { Start } from '../components/start/start.styled';
 
 export default function Home() {
-  return <h1>sadsad</h1>;
+  return (
+    <Start>
+      <Form />
+    </Start>
+  );
 }
